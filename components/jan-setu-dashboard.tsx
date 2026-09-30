@@ -176,7 +176,7 @@ export default function JanSetuDashboard() {
           <span><strong>Jan-Setu AI</strong><small>जन-सेतु • मध्य प्रदेश</small></span>
         </a>
         <div className="topbar-right">
-          <div className="trust-pill"><LockKeyhole size={14} /><span>Privacy-first demo</span></div>
+          <div className="trust-pill"><LockKeyhole size={14} /><span>Prototype demo</span></div>
           <label className="language-select-wrap">
             <Languages size={17} aria-hidden="true" />
             <span className="visually-hidden">Choose language</span>
@@ -291,7 +291,7 @@ export default function JanSetuDashboard() {
                 { title: 'बोलकर बताएं', english: 'Voice input', icon: <Mic size={17} /> },
                 { title: 'कागज़ जाँचें', english: 'Kagaaz inspection', icon: <FileCheck2 size={17} /> },
                 { title: 'सहमति दें', english: 'Privacy consent', icon: <ShieldCheck size={17} /> },
-                { title: 'आवेदन भेजें', english: 'Direct submission', icon: <ArrowRight size={17} /> },
+                { title: 'आवेदन भेजें', english: 'Prototype submission', icon: <ArrowRight size={17} /> },
               ].map((step, index) => <li className={index + 1 < activeStep ? 'step-complete' : index + 1 === activeStep ? 'step-current' : ''} key={step.english}><span className="step-icon">{index + 1 < activeStep ? <Check size={16} /> : step.icon}</span><span className="step-label"><strong>{step.title}</strong><small>{step.english}</small></span>{index < 3 && <span className="step-connector" aria-hidden="true" />}</li>)}
             </ol>
             <div className="inspector-note"><CircleHelp size={17} /><p><strong>जमा करने से पहले जाँचें</strong> साफ़, पूरी और पढ़ने योग्य फोटो चुनें। दस्तावेज़ की वैधता की पुष्टि संबंधित सरकारी विभाग करता है।</p><span className="inspector-status"><span /> READY TO REVIEW</span></div>

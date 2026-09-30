@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Jan-Setu AI | जन-सेतु मध्य प्रदेश',
+  title: 'Jan-Setu AI | जन-सेतु',
   description: 'सरकारी सेवाएँ और दस्तावेज़ सहायता, आपकी भाषा में। Jan-Setu AI का accessible citizen services demo.',
   generator: 'v0.app',
   icons: {
